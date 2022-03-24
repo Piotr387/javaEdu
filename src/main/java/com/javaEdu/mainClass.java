@@ -1,7 +1,12 @@
 package com.javaEdu;
 
+import com.javaEdu.ComparatorAndComparable.CustomProductComparator;
+import com.javaEdu.ComparatorAndComparable.Product;
+import com.javaEdu.ComparatorAndComparable.ProductDemo;
 import com.javaEdu.ListImplementations.DefaultMyList;
 import com.javaEdu.ListImplementations.ListImplementationsHomework;
+
+import java.util.List;
 
 public class mainClass {
 
@@ -29,6 +34,11 @@ public class mainClass {
         } else {
             System.out.println("Tablica nie zawiera elementów drugiej tablicy");
         }
+
+
+        //ComparatorAndComparable
+        ProductDemo.productDemo();
+
     }
 
 }
