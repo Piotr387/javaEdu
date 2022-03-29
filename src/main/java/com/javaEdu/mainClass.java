@@ -3,6 +3,8 @@ package com.javaEdu;
 import com.javaEdu.ComparatorAndComparable.CustomProductComparator;
 import com.javaEdu.ComparatorAndComparable.Product;
 import com.javaEdu.ComparatorAndComparable.ProductDemo;
+import com.javaEdu.Iterable_Iterator_ListIterator.IteratorDemo;
+import com.javaEdu.Iterable_Iterator_ListIterator.ListIteratorDemo;
 import com.javaEdu.ListImplementations.DefaultMyList;
 import com.javaEdu.ListImplementations.ListImplementationsHomework;
 
@@ -36,8 +38,16 @@ public class mainClass {
         }
 
 
-        //ComparatorAndComparable
-        ProductDemo.productDemo();
+        //ComparatorAndComparable;
+        //ProductDemo.productDemo();
+
+        //Iterable iterator & ListIterator
+        //IteratorDemo.IteratorDemoMain();
+        //Listiterator
+        ListIteratorDemo.ListIteratorDemo();
+
+
+
 
         //Test
 
